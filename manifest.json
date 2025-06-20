@@ -1,9 +1,1 @@
-{
-  "name": "EDITH Lite",
-  "short_name": "EDITH",
-  "start_url": "./index.html",
-  "display": "standalone",
-  "background_color": "#000000",
-  "description": "EDITH-like offline object + face recognition",
-  "icons": []
-}
+{"name":"EDITH FullSmart","short_name":"EDITHFS","start_url":"./index.html","display":"standalone","background_color":"#000000","description":"EDITH風PWA（カメラ切替・翻訳・顔登録・保存機能つき）","icons":[]}

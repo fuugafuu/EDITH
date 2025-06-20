@@ -1,16 +1,1 @@
-html, body {
-  margin: 0;
-  padding: 0;
-  width: 100vw;
-  height: 100vh;
-  overflow: hidden;
-  background-color: black;
-}
-
-video, canvas {
-  position: absolute;
-  width: 100vw;
-  height: 100vh;
-  object-fit: cover;
-  transform: rotate(0deg); /* 回転させる場合は変更 */
-}
+body,html{margin:0;padding:0;width:100vw;height:100vh;overflow:hidden;background:black}video,canvas{position:absolute;top:0;left:0;width:100vw;height:100vh;object-fit:cover;z-index:0}#map{position:absolute;bottom:0;height:30vh;width:100vw;z-index:1;border-top:2px solid #00FF00}button{position:absolute;z-index:2;background:#222;color:#fff;border:none;padding:10px;margin:5px;font-size:16px;border-radius:8px}#translate{top:10px;left:10px}#capture{top:10px;right:10px}#register{top:60px;left:10px}#switch{top:60px;right:10px}#gallery{position:absolute;bottom:32vh;left:0;width:100vw;display:flex;overflow-x:auto;z-index:1;background:#00000088}#gallery img{height:80px;margin:5px;border:2px solid #fff;border-radius:8px}
