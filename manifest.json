@@ -1,0 +1,9 @@
+{
+  "name": "EDITH Lite",
+  "short_name": "EDITH",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#000000",
+  "description": "EDITH-like offline object + face recognition",
+  "icons": []
+}
